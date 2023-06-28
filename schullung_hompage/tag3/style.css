@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(175, 17, 17);
+}
+
+header {
+    background-color: #cfcc1e;
+    color: #c41dc1;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1,
+h3 {
+    background-color: #000000;
+    color: #f1f507;
+    font-family: "Courier New", Courier, monospace;
+}
+
+h4 {
+    background-color: #c41dc1;
+    color: #ffffff;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+}
+
+/*h3 {
+    background-color: #cfcc1e;
+    color: red;
+  }
+*/
+article p {
+    background-color: #000000;
+    color: #cfcc1e;
+}
+
+article p span {
+    color: #c41dc1;
+    background-color: aqua;
+}
+
+.second-section {
+    background-color: lightgreen;
+}
+
+.article-header {
+    color: chartreuse;
+}
+
+
+
+/* CSS Regel: Selektor { Deklaration Eigentschaft: Wert} */

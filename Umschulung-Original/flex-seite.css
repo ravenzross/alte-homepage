@@ -1,0 +1,63 @@
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+    width: 60%;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: brown;
+}
+
+li a:hover {
+    color: azure;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    height: 200px;
+}
+
+p {
+    /* height: 200px; */
+    width: 30%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.red-cat {
+    background-color: beige;
+}
+
+.black-cat {
+    background-color: azure;
+}
+
+.white-cat {
+    background-color: whitesmoke;
+}

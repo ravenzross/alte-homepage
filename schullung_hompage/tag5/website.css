@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(62, 230, 11);
+}
+
+h1 {
+    background-color: rgba(190, 50, 50, 0.527);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.game {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: aliceblue;
+
+}
+
+.game2 {
+    display: flex;
+    background-color: rgba(0, 4, 255, 0.671);
+}
+
+.game3 {
+    display: flex;
+    background-color: rgba(155, 21, 16, 0.568);
+}
+
+p {
+    width: 40%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.527);
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 30%;
+}
+
+.h6 {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10%;
+
+}

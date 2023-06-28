@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formular</title>
+    </head>
+    <body>
+        <h1>Formular</h1>
+        <!-- Das ist ein Formular: -->
+        <form action="mailto:someone@example.com">
+            <label for="first-name">Vorname</label>
+            <input id="first-name" type="text" placeholder="Wie heißt du?" />
+            <br />
+            <label for="lastName">Nachname</label>
+            <input id="lastName" type="text" />
+            <br />
+            <h3>Willst du einen Newsletter?</h3>
+            <input id="yes" type="checkbox" />
+            <label for="yes">Ja</label>
+            <input id="no" type="checkbox" />
+            <label for="no">Nein</label>
+            <br />
+            <h3>Welches ist dein Lieblingstier?</h3>
+            <input id="cat" type="radio" name="animal">
+            <label for="cat">Katze</label>
+            <input id="dog" type="radio" name="animal">
+            <label for="dog">Hund</label>
+            <input id="canary" type="radio" name="animal">
+            <label for="canary">Kanarienvogel</label>
+
+            <br>
+            <input type="submit" value="Abschicken" />
+        </form>
+    </body>
+</html>

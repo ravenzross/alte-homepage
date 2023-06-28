@@ -1,0 +1,38 @@
+body {
+    background-color: aqua;
+}
+
+.article {
+    background-color: chartreuse;
+    padding-left: 50px;
+    padding-top: 50px;
+    border: 20px;
+    border-bottom: 50px;
+}
+
+.box1 {
+    background-color: rgba(137, 43, 226, 0.61);
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 30px;
+    border-color: chocolate;
+    border-width: 30px;
+    border-style: solid;
+    border: 10px dotted rgba(207, 24, 24, 0.705)
+}
+
+.box2 {
+    background-color: rgba(207, 24, 24, 0.705);
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    margin-top: 40px;
+    margin-right: 33px;
+    margin-bottom: 25px;
+    margin-left: 55px;
+    border-color: yellowgreen;
+    border-width: 30px;
+    border: 15px dotted rgb(0, 0, 0)
+}

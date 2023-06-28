@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(255, 2, 2);
+}
+
+img {
+    width: 250px;
+}
+
+ul {
+    background-color: rgb(163, 165, 37);
+    color: rgb(116, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+
+}
+
+.second-li {
+    background-color: burlywood;
+    color: blue;
+}
+
+h1,
+h2 {
+    background-color: blue;
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+}
+
+h3 {
+    background-color: darkred;
+    color: greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80%;
+}
+
+.second-ol {
+    background-color: rgb(255, 166, 0);
+    color: rgb(48, 116, 133);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+}

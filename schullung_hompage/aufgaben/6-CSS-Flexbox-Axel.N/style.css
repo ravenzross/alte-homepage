@@ -1,0 +1,43 @@
+body {
+    background-color: blanchedalmond;
+}
+
+div {
+    background-color: rgb(252, 202, 128);
+    display: flex;
+}
+
+div div {
+    display: flex;
+    justify-content: right;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+li {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10%;
+    background-color: antiquewhite;
+    list-style: none;
+}
+
+li a {
+    background-color: rgb(29, 0, 109);
+    color: aqua;
+
+}
+
+.logo1 {
+    display: flex;
+    justify-content: left;
+    width: 30px;
+}

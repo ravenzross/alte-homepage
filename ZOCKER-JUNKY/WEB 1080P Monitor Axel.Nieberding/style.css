@@ -1,0 +1,127 @@
+body {
+    background-color: rgba(0, 0, 0, 0.836);
+    background-image: url("./Bild/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    width: auto;
+    text-align: center;
+    color: rgba(219, 188, 12, 0.822);
+    background-color: rgba(179, 23, 23, 0.527);
+}
+
+.gruppe {
+    background-color: rgba(219, 188, 12, 0.288);
+    color: rgb(0, 0, 0);
+    width: 8.5%;
+    text-align: center;
+    padding: 1%;
+    font-weight: bolder;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 15px;
+    list-style: none;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    display: block;
+
+}
+
+div h2 {
+
+    background-color: rgba(219, 188, 12, 0.822);
+    color: red;
+    text-align: center;
+    margin-left: auto;
+    padding: 0.4%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 15px;
+    list-style: none;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    display: block;
+    width: 10%;
+    transition: box-shadow 0.1s, transform 0.1s;
+}
+
+div a:hover {
+    background-color: rgba(255, 0, 0, 0.616);
+    color: rgba(17, 113, 223, 0.822);
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 15px;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.spiele {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(219, 188, 12, 0.822);
+    margin-right: 65.5%;
+    margin-top: -2.7%;
+    margin-left: 1%;
+}
+
+.test {
+    background-color: rgba(181, 184, 23, 0);
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    margin-left: 90%;
+    margin-top: -1%;
+}
+
+/* .test:visited {
+    color: rgb(255, 255, 255);
+}
+
+.test:hover {
+    color: turquoise;
+} */
+
+h4 {
+    background-color: rgba(219, 188, 12, 0.822);
+    margin-right: 97%;
+}
+
+.beschreibung {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.item {
+    background-color: rgba(219, 188, 12, 0.822);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 2%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 15px;
+    list-style: none;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}

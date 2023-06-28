@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(12, 132, 236, 0.61);
+}
+
+section {
+    background-color: rgba(255, 0, 0, 0.418);
+    height: 400px;
+}
+
+.flex-test {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 255, 0.726);
+    color: rgba(222, 184, 135, 0.733);
+    margin: 0.5%;
+}

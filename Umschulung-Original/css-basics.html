@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Basics</title>
+
+        <style>
+            /* style Element für Internes Styling */
+            h1 {
+                background-color: aqua;
+            }
+        </style>
+        <link rel="stylesheet" href="./css-basics.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Kontakt</li>
+                </ul>
+            </nav>
+            <h1>CSS Basics</h1>
+            <h2>Cascading Style Sheets</h2>
+        </header>
+        <main>
+            <!-- Inline-Styling: -->
+            <h3 style="background-color: lightgreen">Section 1</h3>
+            <h4>Article 1</h4>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni commodi consequatur sit vero atque nisi illum magnam,
+                    veritatis temporibus iure laboriosam corrupti aspernatur
+                    minus sint dicta quam ea veniam quae?
+                </p>
+            </article>
+            <article>
+                <h4 class="article-header">Article 2</h4>
+                <p style="color: red">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Enim atque cumque consequatur vero, necessitatibus hic
+                    deserunt odit laboriosam esse. Quibusdam exercitationem
+                    <span class="second-section"> sapiente hic maiores reiciendis? </span>
+                </p>
+            </article>
+
+            <section class="second-section">
+                <h3>Section 2</h3>
+                <article>
+                    <h4 >Article 1</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magni commodi consequatur sit vero atque nisi illum
+                        magnam, veritatis temporibus iure laboriosam corrupti
+                        aspernatur minus sint dicta quam ea veniam quae?
+                    </p>
+                </article>
+                <article>
+                    <h4>Article 2</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Enim atque cumque consequatur vero, necessitatibus hic
+                        deserunt odit laboriosam esse. Quibusdam exercitationem
+                        sapiente hic maiores reiciendis?
+                    </p>
+                </article>
+            </section>
+            <section>
+                <h3 class="second-section">Section 3</h3>
+                <article>
+                    <h4>Article 1</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magni commodi consequatur sit vero atque nisi illum
+                        magnam, veritatis temporibus iure laboriosam corrupti
+                        aspernatur minus sint dicta quam ea veniam quae?
+                    </p>
+                </article>
+                <article>
+                    <h4>Article 2</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Enim atque cumque consequatur vero, necessitatibus hic
+                        deserunt odit laboriosam esse. Quibusdam exercitationem
+                        sapiente hic maiores reiciendis?
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Kontakt</li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

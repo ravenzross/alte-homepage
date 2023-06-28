@@ -1,0 +1,32 @@
+/* 
+- Füge denselben Klassennamen zu beiden Paragraphen jedes Abschnitts hinzu
+
+- Der zweite Paragraph jedes Abschnitts sollte eine andere Farbe haben als der erste Paragraph
+*/
+
+body {
+    background-color: antiquewhite;
+}
+
+.derselbe {
+    color: aquamarine;
+}
+.zweiter {
+    color: blueviolet;
+}
+/* a steht für anchor = Anker */
+a {
+    color: yellowgreen;
+}
+/* Selektor:Pseudoklasse */
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: aliceblue;
+}
+h1:hover {
+    background-color: aliceblue;
+}
+

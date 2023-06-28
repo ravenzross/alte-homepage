@@ -1,0 +1,60 @@
+body {
+    background-color: #8a6161;
+}
+
+h1 {
+    background-color: rgb(17, 44, 160);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+
+h2 {
+    background-color: rgb(17, 44, 160);
+    color: #13df1d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+
+.li-rp {
+    background-color: rgb(255, 0, 0);
+    color: #1f251f;
+}
+
+img {
+    width: 400px;
+}
+
+h3 {
+    background-color: blanchedalmond;
+    color: #5A0101;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80%;
+}
+
+h4 {
+    background-color: black;
+    color: tomato;
+}
+
+.li-rage {
+    background-color: burlywood;
+    color: #5A0101;
+}
+
+.li-five {
+    background-color: #13df1d;
+}
+
+.li-alt {
+    background-color: #d60909;
+}
+
+.alter-ul {
+    background-color: #5A0101;
+    color: #13df1d;
+}
+
+.img-18 {
+    background-color: #00ff0d;
+    width: 5%;
+}
